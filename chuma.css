@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    padding-top: 100px;
+}
+
+img {
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 150px;
+    
+}
+button {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(243, 72, 72);
+    border: 2px solid rgb(243, 72, 72);
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 1s ease;
+    background-color: rgb(248, 57, 57);
+    color: white;
+}
+.container{
+    background-color: rgb(168, 76, 255);
+    padding-bottom: 150px;
+    margin-top: 40px;
+    
+    height: max-content;
+    border-radius: 7px;
+    
+}
