@@ -58,7 +58,8 @@ button:hover{
 }
 .small-container{
     
-    width: max-content;
+/*     width: max-content; */
+    
     padding-left: 13px;
     padding-right: 13px;
     padding-top: 3px;
