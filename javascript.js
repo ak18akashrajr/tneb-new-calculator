@@ -26,15 +26,22 @@ function revealBtn(params) {
 		ebAmount=0;
 	}
 	else if (unitEl <= 200) {
-		ebAmount = 20 + ((unitEl - 100) * 1.5);
+		ebAmount = 20 + ((unitEl - 100) * 1.5)+55;
 		tariff = ebAmount;
 	 }
 	else if (unitEl <= 500) {
 		ebAmount = 30 + 100 * 2 + (unitEl - 200) * 3;
+		if(unitEl>200 && unitEl<=300)	
+			ebAmount=ebAmount+145;
+		else if(unitEl>300 && unitEl<=400)
+			ebAmount=ebAmount+295;
+		else if(unitEl>400 && unitEl<=500)
+			ebAmount=ebAmount+310;
 		tariff = ebAmount;
 	 }
 	 else if (unitEl > 500) {
 		ebAmount = 50 + 100 * 3.5 + 300 * 4.6 + (unitEl - 500) * 6.6;
+		 
 		tariff = ebAmount;
 	 }
 	console.log(tariff);
